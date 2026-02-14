@@ -92,4 +92,4 @@ function Nothing.universalFabric_robloxOutputAndLoggingCommunicationTransferAbst
 end
 
 
-return Nothing
+return table.freeze(table.clone(Nothing)) -- Prevent users from actually making it do something. Don't.
