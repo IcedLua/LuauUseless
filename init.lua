@@ -1,7 +1,6 @@
 --[[
-	do_nothing_library_LUAU
-	The best worst Luau module in existence.
-	Professionally vibecoded for maximum non-effect.
+	LuauUseless
+	The absolute BEST luau library ever.
 	License: JSON License – for Good, not Evil
 ]]
 
@@ -16,13 +15,11 @@ function Nothing.remainIdle()
 end
 
 --[[
-	Does nothing asynchronously.
-	Spins a coroutine that achieves zero.
-	Inconsistant with other functions for no reason.
+	Does nothing... asynchronously
 ]]
 function Nothing.doNowtAsync()
 	task.spawn(function()
-		-- simulated async non-action
+			Nothing.remainIdle()
 	end)
 end
 
@@ -34,13 +31,13 @@ function Nothing.obtainPassiveMetatable()
 		__index = function() return nil end,
 		__newindex = function() end,
 		__call = function() return nil end,
-		__metatable = "💤",
+		__metatable = "",
 		__len = function() return nil end
 	})
 end
 
 --[[
-	Causes an extreme performance cost by doing... something expensive for no reason.
+	Do nothing, at expense of performance.
 ]]
 function Nothing.cripplePerformance()
 	Nothing.warn("This function cripples performance")
@@ -88,7 +85,7 @@ end
 
 -- DEPRECATED: TOO MUCH STUFF (in the name)!!!
 function Nothing.universalFabric_robloxOutputAndLoggingCommunicationTransferAbstractionLayer(x)
-	Nothing.void_universalFabricCommunicationPingPongPipeAbstractionLayer(x)
+	warn(Nothing.void_universalFabricCommunicationPingPongPipeAbstractionLayer(x))
 	if not true then
 		Nothing.warn("UNABLE TO LOG "..x)
 	end
