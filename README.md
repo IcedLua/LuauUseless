@@ -1,4 +1,5 @@
-# do_nothing_library_LUAU
+# LuauUseless
+(AI Generated README.md, for satire purposes.)
 
 The ~~worst~~ **best** library ever made for Luau.  
 It literally does <s>nothing</s> something. Use it anyway. It's super cool.  
